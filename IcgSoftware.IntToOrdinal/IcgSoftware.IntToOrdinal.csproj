@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>A .NET Standard class library that converts int numbers to ordinal strings</Description>
+    <Description>A .NET Standard class library that converts int numbers to ordinal strings with multi language support</Description>
     <Company>IcgSoftware</Company>
     <Authors>pt</Authors>
     <RepositoryUrl>https://github.com/pt-icg/IntToOrdinal</RepositoryUrl>
     <PackageProjectUrl>https://github.com/pt-icg/IntToOrdinal</PackageProjectUrl>
     <PackageTags>ordinal numbers numbers-to-text ordinal-number-converter net csharp</PackageTags>
-    <Version>0.9.0</Version>
+    <Version>0.9.1</Version>
   </PropertyGroup>
 
 </Project>

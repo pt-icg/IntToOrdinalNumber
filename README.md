@@ -1,6 +1,6 @@
 # IntToOrdinal
 
-A .NET Standard class library that converts int numbers to ordinal strings
+A .NET Standard class library that converts int numbers to ordinal strings with multi language support
 
 Thanks to [casaucao / OrdinalNumbers](https://github.com/casaucao/OrdinalNumbers).
 
