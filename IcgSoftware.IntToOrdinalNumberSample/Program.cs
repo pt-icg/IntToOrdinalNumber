@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using System.Text;
-using IcgSoftware.IntToOrdinal;
+using IcgSoftware.IntToOrdinalNumber;
 
-namespace IcgSoftware.IntToOrdinalSample
+namespace IcgSoftware.IntToOrdinalNumberSample
 {
     class Program
     {
@@ -54,7 +54,7 @@ namespace IcgSoftware.IntToOrdinalSample
             OrdinalConverter ordinalConverter = new OrdinalConverter();
             foreach (var number in numbers)
             {
-                Console.WriteLine("{0,10} {1,10} {2,10}", ordinalConverter.ToOrdinalString(number), ordinalConverter.ToOrdinalString(number, Gender.MALE), ordinalConverter.ToOrdinalString(number, Gender.FEMALE));
+                Console.WriteLine("{0,10} {1,10} {2,10}", ordinalConverter.ToOrdinalNumber(number), ordinalConverter.ToOrdinalNumber(number, Gender.MALE), ordinalConverter.ToOrdinalNumber(number, Gender.FEMALE));
             }
             Console.WriteLine();
         }
@@ -76,12 +76,12 @@ namespace IcgSoftware.IntToOrdinalSample
             {
                 if (string.IsNullOrWhiteSpace(culture))
                 {
-                    Console.WriteLine("{0,10} {1,10} {2,10}", number.ToOrdinalString(), number.ToOrdinalString(Gender.MALE), number.ToOrdinalString(Gender.FEMALE));
+                    Console.WriteLine("{0,10} {1,10} {2,10}", number.ToOrdinalNumber(), number.ToOrdinalNumber(Gender.MALE), number.ToOrdinalNumber(Gender.FEMALE));
                 }
                 else
                 {
                     CultureInfo cultureInfo = new CultureInfo(culture);
-                    Console.WriteLine("{0,10} {1,10} {2,10}", number.ToOrdinalString(cultureInfo), number.ToOrdinalString(Gender.MALE, cultureInfo), number.ToOrdinalString(Gender.FEMALE, cultureInfo));
+                    Console.WriteLine("{0,10} {1,10} {2,10}", number.ToOrdinalNumber(cultureInfo), number.ToOrdinalNumber(Gender.MALE, cultureInfo), number.ToOrdinalNumber(Gender.FEMALE, cultureInfo));
                 }
 
             }

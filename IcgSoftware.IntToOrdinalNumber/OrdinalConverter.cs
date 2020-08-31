@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace IcgSoftware.IntToOrdinal
+namespace IcgSoftware.IntToOrdinalNumber
 {
     /// <summary>
     /// https://en.wikipedia.org/wiki/Ordinal_indicator
@@ -26,26 +26,26 @@ namespace IcgSoftware.IntToOrdinal
             CultureInfo = cultureInfo;
         }
 
-        public string ToOrdinalString(int number)
+        public string ToOrdinalNumber(int number)
         {
-            return ToOrdinalString(number, DefaultGender);
+            return ToOrdinalNumber(number, DefaultGender);
         }
 
-        public string ToOrdinalString(int number, Gender gender)
+        public string ToOrdinalNumber(int number, Gender gender)
         {
-            return ToOrdinalString(number, gender, CultureInfo);
+            return ToOrdinalNumber(number, gender, CultureInfo);
         }
 
-        public string ToOrdinalString(int number, CultureInfo cultureInfo)
+        public string ToOrdinalNumber(int number, CultureInfo cultureInfo)
         {
-            return ToOrdinalString(number, DefaultGender, cultureInfo);
+            return ToOrdinalNumber(number, DefaultGender, cultureInfo);
         }
 
         /// <summary>
 		/// suported cultures: "en", "es", "fr", "nl", "it", "pt", "ga", "ja", "zh", "ca"
         /// default ordinal: '.' e.g. "7."
 		/// </summary>
-        public string ToOrdinalString(int number, Gender gender, CultureInfo cultureInfo)
+        public string ToOrdinalNumber(int number, Gender gender, CultureInfo cultureInfo)
         {
             string language = cultureInfo.TwoLetterISOLanguageName;
             switch (language)

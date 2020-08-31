@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C37C1D9E-02D1-462C-8CEC-1F25E9BCE435}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IcgSoftware.IntToOrdinalSample</RootNamespace>
-    <AssemblyName>IcgSoftware.IntToOrdinalSample</AssemblyName>
+    <RootNamespace>IcgSoftware.IntToOrdinalNumberSample</RootNamespace>
+    <AssemblyName>IcgSoftware.IntToOrdinalNumberSample</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IcgSoftware.IntToOrdinal\IcgSoftware.IntToOrdinal.csproj">
-      <Project>{01825077-1774-4ec4-9518-b066a0deb45e}</Project>
-      <Name>IcgSoftware.IntToOrdinal</Name>
+    <ProjectReference Include="..\IcgSoftware.IntToOrdinalNumber\IcgSoftware.IntToOrdinalNumber.csproj">
+      <Project>{db155045-229d-45cf-a23a-e449afb10b6d}</Project>
+      <Name>IcgSoftware.IntToOrdinalNumber</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
