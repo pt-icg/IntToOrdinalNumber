@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/pt-icg/IntToOrdinalNumber</RepositoryUrl>
     <PackageProjectUrl>https://github.com/pt-icg/IntToOrdinalNumber</PackageProjectUrl>
     <PackageTags>ordinal numbers numbers-to-text ordinal-number-converter net csharp</PackageTags>
-    <Version>0.9.2</Version>
+    <Version>0.9.3</Version>
   </PropertyGroup>
 
 </Project>
