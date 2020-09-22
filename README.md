@@ -1,3 +1,6 @@
+[![GitHub license](https://img.shields.io/github/license/pt-icg/IntToOrdinalNumber.svg)](https://github.com/pt-icg/IntToOrdinalNumber/blob/master/LICENSE)
+[![NuGet](https://img.shields.io/nuget/v/IcgSoftware.IntToOrdinalNumber.svg)](https://www.nuget.org/packages/IcgSoftware.IntToOrdinalNumber/)
+
 # IntToOrdinalNumber
 
 A .NET Standard class library that converts int numbers to ordinal strings with multi language support
